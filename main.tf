@@ -10,6 +10,6 @@ resource "null_resource" "local" {
 
 data "null_data_source" "command" {
   inputs = {
-    command = "pwd"
+    command = "ls"
   }
 }
